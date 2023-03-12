@@ -31,19 +31,6 @@
             key-positions = <20 21>;
             bindings = <&kp LSHFT>;
         };
-        
-	combo_alt_del {
-            timeout-ms = <15>;
-            key-positions = <11 12>;
-            bindings = <LA(&kp DEL)>;
-        };
-	
-	combo_alt_bspc {
-            timeout-ms = <15>;
-            key-positions = <17 18>;
-            bindings = <LA(&kp BSPC)>;
-        };
-	
 	
     };
 
