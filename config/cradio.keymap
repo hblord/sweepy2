@@ -32,6 +32,17 @@
             bindings = <&kp LSHFT>;
         };
 	
+	combo_alt_del {
+            timeout-ms = <15>;
+            key-positions = <11 12>;
+            bindings = <&kp LA(DEL)>;
+        };
+	
+	combo_alt_bspc {
+            timeout-ms = <15>;
+            key-positions = <17 18>;
+            bindings = <&kp LA(BSPC)>;
+        };
     };
 
         keymap {
